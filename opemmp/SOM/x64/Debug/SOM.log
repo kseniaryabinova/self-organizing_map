@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+c1xx : warning C4199: двухэтапный поиск имен не поддерживается для C++/CLI, C++/CX или OpenMP. Используйте /Zc:twoPhase-
+  SOM.cpp
+c1xx : warning C4199: двухэтапный поиск имен не поддерживается для C++/CLI, C++/CX или OpenMP. Используйте /Zc:twoPhase-
+o:\progas\c++\som\som\som.cpp(117): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  SOM.vcxproj -> O:\progas\c++\SOM\x64\Debug\SOM.exe
