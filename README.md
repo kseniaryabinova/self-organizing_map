@@ -1,19 +1,33 @@
-# Самоорганизующаяся карта Кохонена 
+# Self-organized Kohonen map
 
-Нейронная сеть с обучением без учителя, выполняющая задачу визуализации и кластеризации.
+Self-organized Kohonen map is a self-learning neural network. It is used for visualization and clusterization purposes.
 
-Является методом проецирования многомерного пространства в пространство с более низкой размерностью (чаще всего, двумерное), применяется также для решения задач моделирования, прогнозирования, выявление наборов независимых признаков, поиска закономерностей в больших массивах данных, разработке компьютерных игр, квантизации цветов к их ограниченному числу индексов в цветовой палитре: при печати на принтере и ранее на ПК или же на приставках с дисплеем с пониженным числом цветов, для архиваторов или видео-кодеков, и прч. Является одной из версий нейронных сетей Кохонена.
+This kind of neural network is used for dimensionality reduction (for example, from n-dimensional to 2-dimensional).   
 
-Самоорганизующаяся карта Кохонена была реализована с помощью двух технологий параллельного программирования: OpenMP и CUDA. Для визуализации использовался Python и Matplotlib.
+## What?
 
-## Результат работы программ
+Here is a Self-organized Kohonen map implemented on C++ with CUDA and OpenMP.
 
-Карта 100х100 после обучения выглядит вот так:
+Also I used Python with matplotlib for visualization.
 
-![карта 100х100](images/map1.png)
+All of this was implemented in Microsoft Visual Studio.
 
-Обучение проводилось с помощью 7 обучающих векторов красного, оранжевого, желтого, зеленого, голубого, синего и фиолетового.
+## Why?
 
-Статистика времени работы программ:
+I had to implement some algorithm using parallel programing libraries for one of the subjects in my university. I chose to implement this neural network using CUDA and OpenMP and then to compare speed of this 2 implementations.
 
-![Статистика](images/график.png)
+## Where are the results?
+
+Here is the 100x100 map:
+
+[100x100 map](images/map1.png)
+
+Here a 3-dimensional vector space (space of an RGB vectors) is projected onto a 2-dimensional vector space (space of coordinates).
+
+Learning is performed using rainbow colors: red, orange, yellow, green, light-blue, blue and purple.
+
+Here is time-dimension plot: 
+- X-axis - map size (from 100x100 to 1000x1000)
+- Y-axis - seconds
+
+[Time plot](images/??????.png)
