@@ -30,4 +30,4 @@ Here is time-dimension plot:
 - X-axis - map size (from 100x100 to 1000x1000)
 - Y-axis - seconds
 
-![Time plot](images/??????.png)
+![Time plot](images/plot.png)
