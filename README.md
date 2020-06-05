@@ -20,7 +20,7 @@ I had to implement some algorithm using parallel programing libraries for one of
 
 Here is the 100x100 map:
 
-[100x100 map](images/map1.png)
+![100x100 map](images/map1.png)
 
 Here a 3-dimensional vector space (space of an RGB vectors) is projected onto a 2-dimensional vector space (space of coordinates).
 
@@ -30,4 +30,4 @@ Here is time-dimension plot:
 - X-axis - map size (from 100x100 to 1000x1000)
 - Y-axis - seconds
 
-[Time plot](images/??????.png)
+![Time plot](images/??????.png)
